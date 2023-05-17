@@ -1,0 +1,180 @@
+
+\	java:S112ÿ"FDefine and throw a dedicated exception instead of using a generic one.(¢ö†
+F
+java:S3740İ"/Provide the parametrized type for this generic.(Çæö
+F
+java:S3740á"/Provide the parametrized type for this generic.(† òİ
+F
+java:S3740á"/Provide the parametrized type for this generic.(† òİ
+K
+java:S3740í"/Provide the parametrized type for this generic.( Ë‘”üÿÿÿÿ
+K
+java:S3740ğ"/Provide the parametrized type for this generic.(©Òì©ÿÿÿÿÿ
+^
+java:S1192Ò"GDefine a constant instead of duplicating this literal "NAN_HU" 3 times.(ŠŒ¯ë
+c
+java:S1192ä"GDefine a constant instead of duplicating this literal "120.00" 3 times.(íÉ×Ãûÿÿÿÿ
+l	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò¾“Äøÿÿÿÿ
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ûÜø
+g	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø°˜‡
+g	java:S117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œøÆº
+g
+java:S1301É"KReplace this "switch" statement by "if" statements to increase readability.(á×Ëşÿÿÿÿ
+X
+java:S4973Ø"<Strings and Boxed types should be compared using "equals()".(†Á¸ÿÿÿÿÿ
+Y
+java:S2184"BCast one of the operands of this addition operation to a "double".(—ÿÁ 
+I
+java:S1199¢"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+X
+java:S3518Ÿ"AMake sure "fDerivative" can't be zero before doing this division.(Í‚åÀ
+8
+java:S2189N""Correct this loop's end condition.(ª£•÷
+N
+java:S3655‘"7Call "Optional#isPresent()" before accessing the value.(ÙÒîÖ
+q
+java:S1845·"ZRename method "StreamTest" to prevent any misunderstanding/clash with method "streamTest".(ÙçÅÀ
+r
+java:S1845—"VRename method "dateTest" to prevent any misunderstanding/clash with method "DateTest".(–òêùÿÿÿÿ
+Q	java:S1257"<This block of commented-out lines of code should be removed.(•§çÍ
+B
+java:S1481L"'Remove this unused "s1" local variable.(•Ï¦ïşÿÿÿÿ
+O
+java:S2251N"9"i" is decremented and will never reach "stop condition".(ª£•÷
+>	java:S108N")Either remove or fill this block of code.(ª£•÷
+i
+java:S3252d"NUse static access with "cn.hutool.core.collection.CollUtil" for "disjunction".(öæßüÿÿÿÿ
+@
+java:S1197t"*Move the array designators [] to the type.(ó‡”ø
+G
+java:S1481{",Remove this unused "integer" local variable.(·¢êøÿÿÿÿ
+A
+java:S2175•"*A "List<Integer>" cannot contain a "List".(£Å­ƒ
+W	java:S125¥"<This block of commented-out lines of code should be removed.(—¹èïùÿÿÿÿ
+W	java:S125³"<This block of commented-out lines of code should be removed.(‰ª¡úÿÿÿÿ
+d	java:S100ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ö†
+P
+java:S1854"9Remove this useless assignment to local variable "user1".(²Ô­ü
+ƒ
+java:S1130ÿ"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¢ö†
+A
+java:S1481"*Remove this unused "user1" local variable.(²Ô­ü
+W	java:S125ƒ"<This block of commented-out lines of code should be removed.(äêÇ‰ùÿÿÿÿ
+m
+java:S2159†"VRemove this call to "equals"; comparisons between unrelated types always return false.(›Ùóª
+R	java:S125‹"<This block of commented-out lines of code should be removed.(·Èöç
+S
+java:S1854š"<Remove this useless assignment to local variable "aBoolean".(‡ç¤Á
+D
+java:S1481š"-Remove this unused "aBoolean" local variable.(‡ç¤Á
+L
+java:S1854£"5Remove this useless assignment to local variable "b".(ùóî
+=
+java:S1481£"&Remove this unused "b" local variable.(ùóî
+W	java:S125¥"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
+R	java:S125§"<This block of commented-out lines of code should be removed.(İÀá¼
+d	java:S100·"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙçÅÀ
+i	java:S100¾"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—İÈÏşÿÿÿÿ
+Q
+java:S1854Á":Remove this useless assignment to local variable "divide".(âïçÏ
+Q
+java:S1854À"5Remove this useless assignment to local variable "b".(íôÑÉıÿÿÿÿ
+L
+java:S1854¿"5Remove this useless assignment to local variable "a".(Í»¾
+=
+java:S1481¿"&Remove this unused "a" local variable.(Í»¾
+B
+java:S1481À"&Remove this unused "b" local variable.(íôÑÉıÿÿÿÿ
+B
+java:S1481Á"+Remove this unused "divide" local variable.(âïçÏ
+W	java:S125Ã"<This block of commented-out lines of code should be removed.(Ò„üÿÿÿÿ
+d	java:S100Ì"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡çÁÎ
+R	java:S125Ñ"<This block of commented-out lines of code should be removed.(­ÓØú
+c	java:S100Ù"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»[
+Q
+java:S1854İ"5Remove this useless assignment to local variable "a".(Î¶å°ÿÿÿÿÿ
+B
+java:S1481İ"&Remove this unused "a" local variable.(Î¶å°ÿÿÿÿÿ
+8	java:S131­""Add a default case to this switch.(ÑŞñÊ
+i	java:S100Â"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ÈÕØÿÿÿÿÿ
+i	java:S100Í"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šºøÿÿÿÿ
+i	java:S100Ó"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÈÂàşÿÿÿÿ
+`
+java:S4143î"DVerify this is the key that was intended; it was already set before.(İˆîèşÿÿÿÿ
+S
+java:S1854"<Remove this useless assignment to local variable "integer2".(Æò¿å
+D
+java:S1481"-Remove this unused "integer2" local variable.(Æò¿å
+b
+java:S3252•"KUse static access with "cn.hutool.core.text.CharSequenceUtil" for "format".(öûíú
+i	java:S100«"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…şªÙøÿÿÿÿ
+]
+java:S1854À"ARemove this useless assignment to local variable "reentrantLock".(Ìğƒôıÿÿÿÿ
+N
+java:S1481À"2Remove this unused "reentrantLock" local variable.(Ìğƒôıÿÿÿÿ
+=	java:S131É""Add a default case to this switch.(á×Ëşÿÿÿÿ
+d	java:S100Ü"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìº«
+?
+java:S1481İ")Remove this unused "date" local variable.(€ø°V
+Q	java:S125ß"<This block of commented-out lines of code should be removed.(ıïó
+i	java:S100å"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÚ›øùÿÿÿÿ
+
+java:S1130å"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(ØÚ›øùÿÿÿÿ
+R	java:S125ù"<This block of commented-out lines of code should be removed.(À¹À
+J
+java:S1874"3Remove this use of "toGMTString"; it is deprecated.(ËƒÁ‚
+O
+java:S1854‰"9Remove this useless assignment to local variable "build".(½›A
+@
+java:S1481‰"*Remove this unused "build" local variable.(½›A
+a
+java:S3252‘"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(£Ş¶ÿûÿÿÿÿ
+d	java:S100¢"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã± Å
+Q
+java:S1854¦":Remove this useless assignment to local variable "result".(‚±Òê
+B
+java:S1481¦"+Remove this unused "result" local variable.(‚±Òê
+i	java:S100¯"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ¥ÉÃúÿÿÿÿ
+d	java:S100·"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¦øÜ
+_
+java:S5361¹"HReplace this call to "replaceAll()" by a call to the "replace()" method.(µÆ™ƒ
+_
+java:S5361¹"HReplace this call to "replaceAll()" by a call to the "replace()" method.(µÆ™ƒ
+_
+java:S5361¹"HReplace this call to "replaceAll()" by a call to the "replace()" method.(µÆ™ƒ
+C
+java:S1481À"-Remove this unused "response" local variable.(õÈ•i
+R	java:S125Ã"<This block of commented-out lines of code should be removed.(æ»£é
+M
+java:S1854æ"6Remove this useless assignment to local variable "s1".(íØóÛ
+C
+java:S3599Ğ",Use another way to initialize this instance.(Ø°˜‡
+p
+java:S1171Ğ"YMove the contents of this initializer to a standard constructor or to field initializers.(Ø°˜‡
+l
+java:S3252å"PUse static access with "cn.hutool.core.text.CharSequenceUtil" for "containsAny".(‰Ÿ˜«úÿÿÿÿ
+>
+java:S1481æ"'Remove this unused "s1" local variable.(íØóÛ
+g
+java:S3252ı"KUse static access with "cn.hutool.core.text.CharSequenceUtil" for "format".(—ñşøÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(Úéî·ıÿÿÿÿ
+P
+java:S1854§"9Remove this useless assignment to local variable "user1".(²Ô­ü
+A
+java:S1481§"*Remove this unused "user1" local variable.(²Ô­ü
+Z
+java:S1128	"?Remove this unused import 'cn.hutool.core.lang.func.VoidFunc0'.(‹ïÇ³ûÿÿÿÿ
+Q
+java:S1128"6Remove this unused import 'cn.hutool.json.JSONConfig'.(äƒÈÊøÿÿÿÿ
+Q
+java:S1128"6Remove this unused import 'cn.hutool.json.JSONString'.(•û°¡ûÿÿÿÿ
+J
+java:S1128"4Remove this unused import 'cn.hutool.json.JSONUtil'.( «ı¢
+G
+java:S1128"1Remove this unused import 'entry.WarnDataIssued'.(Ï³À°
+^
+java:S1128"HRemove this unused import 'java.util.concurrent.atomic.AtomicReference'.(×‡µó
+O
+java:S1128""4Remove this unused import 'java.util.Calendar.HOUR'.(‹¡Œ„úÿÿÿÿ
+M
+java:S1068*"2Remove this unused "NUMBER_PATTERN" private field.(¢ˆÇ·şÿÿÿÿ
