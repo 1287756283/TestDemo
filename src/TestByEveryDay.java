@@ -1294,6 +1294,19 @@ public class TestByEveryDay<T> {
         }
 
     }
+
+    @Test
+    public void ListTest222() {
+        User user = User.builder().age(11).name("ssss").build();
+
+        User user2 = User.builder().age(22).name("wwww").build();
+        List<User> users = Collections.singletonList(user);
+        List<User> users1 = Collections.singletonList(user2);
+        if (CollUtil.isNotEmpty(users)) {
+            System.out.println(Collections.emptyList());
+        }
+
+    }
 }
 
 
