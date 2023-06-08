@@ -1283,7 +1283,7 @@ public class TestByEveryDay<T> {
 
 
     @Test
-    public void ListTest111() {
+    public void ListTest1111() {
         User user = User.builder().age(11).name("ssss").build();
 
         User user2 = User.builder().age(22).name("wwww").build();
@@ -1296,7 +1296,7 @@ public class TestByEveryDay<T> {
     }
 
     @Test
-    public void ListTest222() {
+    public void ListTest2222() {
         User user = User.builder().age(11).name("ssss").build();
 
         User user2 = User.builder().age(22).name("wwww").build();
@@ -1309,7 +1309,7 @@ public class TestByEveryDay<T> {
     }
 
     @Test
-    public void ListTest333() {
+    public void ListTest3333() {
         User user = User.builder().age(11).name("ssss").build();
 
         User user2 = User.builder().age(22).name("wwww").build();
