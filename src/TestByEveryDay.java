@@ -1263,8 +1263,10 @@ public class TestByEveryDay<T> {
 
     @Test
     public void sum() {
-        Integer integer = Stream.of(1, 2, 3, 4, 5).reduce(Integer::sum).get();
-        System.out.println(integer);
+      User user=null;
+      if (user.getName() != null){
+          System.out.println(11);
+      }
     }
 
     @Test
