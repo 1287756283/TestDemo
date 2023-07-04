@@ -742,7 +742,7 @@ public class TestByEveryDay<T> {
 //            }
 //        }
         String ids1 = null;
-        if (StrUtil.isNotEmpty(ids1)){
+        if (StrUtil.isNotEmpty(ids1)) {
             String[] split1 = ids1.split(",");
             List<String> list1 = Arrays.asList(split1);
             for (String s : list1) {
@@ -1263,10 +1263,11 @@ public class TestByEveryDay<T> {
 
     @Test
     public void sum() {
-      User user=null;
-      if (user.getName() != null){
-          System.out.println(11);
-      }
+        if (true || true) {
+            System.out.println("111");
+        } else {
+            System.out.println("222");
+        }
     }
 
     @Test
@@ -1311,14 +1312,22 @@ public class TestByEveryDay<T> {
     @Test
     public void ListTest3333() {
         User user = User.builder().age(11).name("ssss").build();
+        String jsonString = JSON.toJSONString(user);
+        System.out.println(jsonString);
+        JSON.parseObject(jsonString);
+        int age = (int) JSON.parseObject(jsonString).get("age");
+        System.out.println(age);
+        JSON.parseObject(jsonString).get("age");
+    }
 
-        User user2 = User.builder().age(22).name("wwww").build();
-        List<User> users = Collections.singletonList(user);
-        List<User> users1 = Collections.singletonList(user2);
-        if (CollUtil.isNotEmpty(users)) {
-            System.out.println(Collections.emptyList());
-        }
 
+    @Test
+    public void ListTest4444() {
+        List<User> users1 = new ArrayList<>();
+        users1.add(User.builder().name("lsl1").build());
+        List<User> users2 = new ArrayList<>();
+        users1.addAll(users2);
+        System.out.println(users1);
     }
 }
 
