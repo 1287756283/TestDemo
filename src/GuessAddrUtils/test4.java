@@ -1,4 +1,4 @@
-package addrTest2;
+package GuessAddrUtils;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class test3 {
+public class test4 {
 
     /**
      * 解析地址

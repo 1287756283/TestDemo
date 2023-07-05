@@ -1,8 +1,8 @@
-package addressTest1;
+package GuessAddrUtils;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.lang.Pair;
-import entry.User;
+import entry.DoMian.User;
 import org.junit.Test;
 
 import java.math.BigDecimal;

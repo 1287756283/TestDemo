@@ -2,7 +2,7 @@ package util;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import entry.WarnDataIssued;
+import entry.DoMian.WarnDataIssued;
 
 /**
  * @author: lsl

@@ -9,7 +9,7 @@ import javax.sql.DataSource;
 /**
  *
  */
-public class TestUtils {
+public class HuTools {
 
 
     @Test

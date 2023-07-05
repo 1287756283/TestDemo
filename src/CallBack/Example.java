@@ -1,9 +1,5 @@
 package CallBack;
 
-import CallBack.People;
-import CallBack.Teacher;
-import entry.Student;
-
 public class Example{
 
     public static void main(String args[]){

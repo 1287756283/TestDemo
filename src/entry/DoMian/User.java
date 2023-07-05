@@ -1,4 +1,4 @@
-package entry;
+package entry.DoMian;
 
 import com.alibaba.fastjson.JSON;
 import lombok.AllArgsConstructor;

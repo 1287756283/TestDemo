@@ -1,4 +1,4 @@
-package entry;
+package entry.DoMian;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
