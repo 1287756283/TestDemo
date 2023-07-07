@@ -1,5 +1,6 @@
 package Test;
 
+import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.date.DateTime;
@@ -15,6 +16,7 @@ import com.alibaba.fastjson.JSONObject;
 import entry.DoMian.Student;
 import entry.DoMian.User;
 import entry.DoMian.WarnDataIssued;
+import org.apache.commons.lang3.time.DateUtils;
 import org.junit.Test;
 import util.toJsonUtils;
 
@@ -1321,6 +1323,43 @@ public class TestByEveryDay<T> {
         List<User> users2 = new ArrayList<>();
         users1.addAll(users2);
         System.out.println(users1);
+
+
+        DateTime parse = DateUtil.parse("Fri Jul 16 00:00:00 CST 2032");
+        System.out.println(parse);
+    }
+
+    @Test
+    public void findMedianSortedArrays() {
+
+        int[] nums1 = {1,1};
+        int[] nums2 = {1,2};
+
+        List<Integer> list = new ArrayList<>();
+        list.addAll(Arrays.stream(nums1).boxed().collect(Collectors.toList()));
+        list.addAll(Arrays.stream(nums2).boxed().collect(Collectors.toList()));
+        List<Integer> list1 = new ArrayList<>();
+        list1.addAll(list);
+        //将list从小到大排序
+        Collections.sort(list1);
+        if (list1.size() == 1) {
+            System.out.println("list1.get(0) = " + list1.get(0));
+        }
+        if (list1.size() == 0) {
+            System.out.println(0);
+        }
+        if (list1.size() == 2) {
+            double i = (double) (list1.get(0) + list1.get(1)) / 2;
+            System.out.println("i = " + i);
+        }
+        if (list1.size() % 2 == 0) {
+            double i = (double) (list1.get((list.size() / 2) - 1) + list1.get(list.size() / 2))/2;
+            System.out.println("i = " + i);
+        } else {
+            double i = list1.get((list.size() - 1) / 2);
+            System.out.println("i = " + i);
+            return;
+        }
     }
 }
 
