@@ -1318,22 +1318,16 @@ public class TestByEveryDay<T> {
 
     @Test
     public void ListTest4444() {
-        List<User> users1 = new ArrayList<>();
-        users1.add(User.builder().name("lsl1").build());
-        List<User> users2 = new ArrayList<>();
-        users1.addAll(users2);
-        System.out.println(users1);
+        System.out.println(BooleanUtil.and(true, false));
+        System.out.println(BooleanUtil.or(false , true ));
 
-
-        DateTime parse = DateUtil.parse("Fri Jul 16 00:00:00 CST 2032");
-        System.out.println(parse);
     }
 
     @Test
     public void findMedianSortedArrays() {
 
-        int[] nums1 = {1,1};
-        int[] nums2 = {1,2};
+        int[] nums1 = {1, 1};
+        int[] nums2 = {1, 2};
 
         List<Integer> list = new ArrayList<>();
         list.addAll(Arrays.stream(nums1).boxed().collect(Collectors.toList()));
@@ -1353,7 +1347,7 @@ public class TestByEveryDay<T> {
             System.out.println("i = " + i);
         }
         if (list1.size() % 2 == 0) {
-            double i = (double) (list1.get((list.size() / 2) - 1) + list1.get(list.size() / 2))/2;
+            double i = (double) (list1.get((list.size() / 2) - 1) + list1.get(list.size() / 2)) / 2;
             System.out.println("i = " + i);
         } else {
             double i = list1.get((list.size() - 1) / 2);
